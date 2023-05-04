@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    background-color:rgb(252, 244, 236);
+    color: aliceblue;
+    min-width: 400px;
+    padding: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px 5px;
+    outline: 0;
+    /* border: 0; */
+    border-color: aqua;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px 0 5px;
+}
+button{
+    /* border: 0; */
+    border-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: aqua;
+    background-color: #fff;
+    outline: 0;
+    cursor: pointer;
+}
+#chromeInputDelete{
+    color: #fff;
+    background-color: aqua;
+    font-weight: 600;
+
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+li, a{
+    /* color: aqua; */
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
